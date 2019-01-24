@@ -65,8 +65,6 @@ function Humanoid(humanoid) {
  
 Humanoid.prototype = Object.create(CharacterStats.prototype)
 
-// Missing a line of code here to inherit takeDamage() from CharacterStats
-
 Humanoid.prototype.greet = function() {
   return `${this.name} offers a greeting in ${this.language}.`
 }
